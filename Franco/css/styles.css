@@ -5,7 +5,6 @@
     font-family: 'Mulish', sans-serif;
 }
 
-
 .flex-container{
     display: flex;
     justify-content: center;
@@ -21,16 +20,16 @@ a{
 
 .header-principal{
     justify-content: space-between;
-    background-color: rgb(206, 202, 202);
+    background-color: rgba(246, 243, 243, 0.861);
 }
 
 .logo-principal{
-    width: 180px;
-    height: 100px;
+    width: 150px;
+    height: 80px;
 }
 
 .nav-bar{
-    width: 30%;
+    width: 35%;
 }
 
 .anchor-header{
@@ -42,7 +41,7 @@ a{
 }
 
 .header-secundario{
-    background-color: rgb(206, 202, 202);
+    background-color: rgb(230, 224, 224);
 }
 
 .img-fondo{
@@ -106,4 +105,27 @@ a{
 .anchor-footer{
     margin: 0px;
     padding: 0px;
+}
+
+.email-footer{
+    width: 10px;
+    height: 10px;
+}
+
+.celular-footer{
+    width: 10px;
+    height: 10px;
+}
+
+.ubicacion-footer{
+    width: 10px;
+    height: 10px;
+}
+
+.btn-boton{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
 }
