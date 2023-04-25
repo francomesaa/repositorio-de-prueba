@@ -13,85 +13,90 @@
 
 <body>
     <h1>
-        Llena el formulario para realizar el pago del producto!
+        Tabla de talles
     </h1>
     <main>
         <section>
             <div>
                 <table class="table">
                     <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                      </tr>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Largo</th>
+                            <th scope="col">Ancho</th>
+                            <th scope="col">Manga</th>
+                        </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                      </tr>
+                        <tr>
+                            <th scope="row">M</th>
+                            <td>70cm</td>
+                            <td>68cm</td>
+                            <td>52cm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">L</th>
+                            <td>73cm</td>
+                            <td>70cm</td>
+                            <td>55cm</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">XL</th>
+                            <td>75cm</td>
+                            <td>72cm</td>
+                            <td>57cm</td>
+                        </tr>
                     </tbody>
-                  </table>
+                </table>
             </div>
+            <p>
+                El modelo Mide 1,80 y está usando un talle XL
+            </p>
+            <p>La modelo Mide 1.65 y está usando un talle M
+            </p>
         </section>
-        
-        <section>
-            <div class="input-group mb-3">
-                <label class="input-group-text" for="inputGroupSelect01">Options</label>
-                <select class="form-select" id="inputGroupSelect01">
-                  <option selected>Choose...</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-              
-              <div class="input-group mb-3">
-                <select class="form-select" id="inputGroupSelect02">
-                  <option selected>Choose...</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-                <label class="input-group-text" for="inputGroupSelect02">Options</label>
-              </div>
-              
-              <div class="input-group mb-3">
-                <button class="btn btn-outline-secondary" type="button">Button</button>
-                <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                  <option selected>Choose...</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-              </div>
-              
-              <div class="input-group">
-                <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                  <option selected>Choose...</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
-                <button class="btn btn-outline-secondary" type="button">Button</button>
-              </div>
-        </section>
-    </main>
+
+        <form>
+            <label for="producto">Producto:</label>
+            <select id="producto" name="producto">
+                <option value="Hoodie Low Blanco">Hoodie Low Blanco</option>
+                <option value="Hoodie Low Negro">Hoodie Low Negro</option>
+                <option value="Hoodie Marrón">Hoodie Marrón</option>
+                <option value="Hoodie Rosa">Hoodie Rosa</option>
+                <option value="Hoodie Butterfly 1">Hoodie Butterfly 1</option>
+                <option value="Hoodie Butterfly 2">Hoodie Butterfly 2</option>
+                <option value="Hoodie Verde Claro">Hoodie Verde Claro</option>
+                <option value="Hoodie Verde Oscuro">Hoodie Verde Oscuro</option>
+            </select>
+
+            <br><br>
+
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" id="domicilio" name="domicilio">
+
+            <br><br>
+
+            <label for="Talle">Talle:</label>
+            <input type="text" id="talle" name="talle">
+
+            <br><br>
+
+            <label for="metodo_pago">Método de pago:</label>
+            <select id="metodo_pago" name="metodo_pago">
+                <option value="efectivo">Efectivo</option>
+                <option value="mercado_pago">Mercado Pago</option>
+                <option value="transferencia">Transferencia</option>
+            </select>
+
+            <br><br>
+
+            <label for="gmail">Gmail:</label>
+            <input type="email" id="gmail" name="gmail">
+
+            <br><br>
+
+            <input type="submit" value="Comprar">
+        </form>
 </body>
 
 </html>
