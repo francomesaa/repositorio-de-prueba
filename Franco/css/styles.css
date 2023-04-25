@@ -36,6 +36,11 @@ a{
     margin-right: 30px;
 }
 
+.button:active{
+    color: dimgray;
+    background-color: #000000;
+}
+
 .nav-bar-2{
     margin-top: 20px;
 }
